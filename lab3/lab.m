@@ -74,8 +74,8 @@ disp(maxznach);
 disp("При сдвиге");
 disp(maxsdvig);
 subplot(4, 1, 3);
-plot(a);
-title("a = [0.3 0.2 -0.1 4.2 -2 1.5 0]")
-subplot(4, 1, 4);
 plot(b);
 title("b со сдвигом")
+subplot(4, 1, 4);
+plot(cormas);
+title("Корреляция со сдвигом b")
