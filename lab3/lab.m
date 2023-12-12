@@ -35,10 +35,10 @@ corab = sum(a.*b);
 disp("Корреляция a b")
 disp(corab);
 figure;
-subplot(5, 1, 1);
+subplot(4, 1, 1);
 plot(a);
 title("a = [0.3 0.2 -0.1 4.2 -2 1.5 0]")
-subplot(5, 1, 2);
+subplot(4, 1, 2);
 plot(b);
 title("b = [0.3 4 -2.2 1.6 0.1 0.1 0.2]")
 maxsdvig = 0;
@@ -73,12 +73,9 @@ disp("Максимальная корреляция");
 disp(maxznach);
 disp("При сдвиге");
 disp(maxsdvig);
-subplot(5, 1, 3);
+subplot(4, 1, 3);
 plot(a);
 title("a = [0.3 0.2 -0.1 4.2 -2 1.5 0]")
-subplot(5, 1, 4);
+subplot(4, 1, 4);
 plot(b);
 title("b со сдвигом")
-subplot(5, 1, 5);
-plot(cormas);
-title("Корреляция со сдвигом b")
