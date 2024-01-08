@@ -1,5 +1,5 @@
 import numpy as np
-import functions as func
+import funct as func
 from scipy.fft import fftshift, fft
 import matplotlib.pyplot as plt
 
