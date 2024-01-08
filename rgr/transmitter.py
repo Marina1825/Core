@@ -1,5 +1,5 @@
 import numpy as np
-import functions as func
+import funct as func
 
 def add_noise_and_decode(signal, standard_deviation):
     signal = np.asarray(signal)
