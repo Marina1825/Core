@@ -1,5 +1,4 @@
 import numpy as np
-import radio_channel as base
 import matplotlib.pyplot as plt
 
 def decoder(code):
